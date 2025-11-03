@@ -1,0 +1,8 @@
+[package]
+name = "dice_game"
+type = "bin"
+authors = ["EverArcade"]
+compiler_version = ">=0.30.0"
+
+[dependencies]
+std = { git = "https://github.com/noir-lang/noir_stdlib", tag = "v0.1.0" }
